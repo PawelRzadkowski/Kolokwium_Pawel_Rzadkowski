@@ -1,0 +1,9 @@
+rok = [2010, 2012, 2014, 2016, 2018];
+warszawa = [133, 123, 143, 123, 144];
+krakow = [127, 112, 162, 112, 175];
+
+bar(rok, [warszawa' krakow'], 'grouped');
+legend('Warszawa', 'Kraków');
+xlabel('Rok');
+ylabel('Liczba');
+title('Liczba dla Warszawy i Krakowa w latach 2010-18');

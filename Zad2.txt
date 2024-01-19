@@ -1,0 +1,19 @@
+function y = a(x);
+y = 3^(2*x + 4) + 4^x;
+endfunction
+
+function y = b(x)
+ y = (x^3 + 4*x)/(x^2 + 5) + 1/(5*x);
+endfunction
+
+x = 2:0.1:6;
+
+ya = a(x);
+yb = b(x);
+
+
+plot(x, ya, 'r', x, yb, 'b');
+legend('a(x)', 'b(x)');
+xlabel('x');
+ylabel('y');
+title('Wykres funkcji a i funckji b');

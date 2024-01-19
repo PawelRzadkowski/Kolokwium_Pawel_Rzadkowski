@@ -1,3 +1,3 @@
 # Kolokwium_Pawel_Rzadkowski
 
-Placeholder
+Numer albumu : 175489
